@@ -51,8 +51,8 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            I'm a passionate developer with a love for creating amazing digital
-            experiences
+            I&apos;m a passionate developer with a love for creating amazing
+            digital experiences
           </p>
         </motion.div>
 
@@ -76,9 +76,9 @@ const About = () => {
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
               I believe in the power of clean code, beautiful design, and
-              seamless user experiences. When I'm not coding, you can find me
-              exploring new technologies, contributing to open-source projects,
-              or sharing knowledge with the developer community.
+              seamless user experiences. When I&apos;m not coding, you can find
+              me exploring new technologies, contributing to open-source
+              projects, or sharing knowledge with the developer community.
             </p>
 
             <div className="flex flex-wrap gap-3">

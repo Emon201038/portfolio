@@ -52,7 +52,7 @@ const Hero = () => {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white"
             >
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Emdadul Hoque Emon
               </span>

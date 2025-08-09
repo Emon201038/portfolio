@@ -89,7 +89,7 @@ const Projects = () => {
       id: 6,
       title: "Portfolio Website",
       description:
-        "This very portfolio website you're viewing! Built with Next.js, featuring smooth animations, dark mode support, and a functional contact form.",
+        "This very portfolio website you&apos;re viewing! Built with Next.js, featuring smooth animations, dark mode support, and a functional contact form.",
       image: "/api/placeholder/600/400",
       tags: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
       github: "https://github.com/emon201038/portfolio2",

@@ -122,8 +122,8 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Have a project in mind? Let's work together to bring your ideas to
-            life
+            Have a project in mind? Let&apos;s work together to bring your ideas
+            to life
           </p>
         </motion.div>
 
@@ -137,13 +137,13 @@ const Contact = () => {
           >
             <div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                Let's start a conversation
+                Let&apos;s start a conversation
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
-                I'm always interested in hearing about new projects and
-                opportunities. Whether you're a company looking to hire, or
-                you're someone who has a project in mind, I'd love to hear from
-                you.
+                I&apos;m always interested in hearing about new projects and
+                opportunities. Whether you&apos;re a company looking to hire, or
+                you&apos;re someone who has a project in mind, I&apos;d love to
+                hear from you.
               </p>
             </div>
 

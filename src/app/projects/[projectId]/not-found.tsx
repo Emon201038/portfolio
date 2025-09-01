@@ -19,8 +19,8 @@ export default function NotFound() {
           </div>
           <CardTitle className="text-2xl">Project Not Found</CardTitle>
           <CardDescription>
-            The project you're looking for doesn't exist or may have been
-            removed.
+            The project you&apos;re looking for doesn&apos;t exist or may have
+            been removed.
           </CardDescription>
         </CardHeader>
         <CardContent>

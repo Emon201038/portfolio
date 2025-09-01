@@ -4,7 +4,6 @@ import { blogsData } from "@/lib/blogs-data";
 import { BlogCard } from "./BlogCard";
 
 const Blogs = () => {
-  const otherBlogs = blogsData.filter((blog) => blog.id !== 1);
   return (
     <section>
       <div className="flex items-center gap-2 mb-6">

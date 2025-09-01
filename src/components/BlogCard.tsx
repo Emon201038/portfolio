@@ -8,6 +8,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { CalendarDays, Clock, User } from "lucide-react";
 import type { IBlogPost } from "@/lib/blogs-data";
+import Image from "next/image";
 
 interface BlogCardProps {
   blog: IBlogPost;
@@ -19,7 +20,8 @@ export function BlogCard({ blog }: BlogCardProps) {
       <Card className="h-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border-border/50 hover:border-primary/20">
         <CardHeader className="p-0">
           <div className="aspect-video overflow-hidden rounded-t-lg">
-            <img
+            <Image
+              fill
               src={blog.image || "/placeholder.svg"}
               alt={blog.title}
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"

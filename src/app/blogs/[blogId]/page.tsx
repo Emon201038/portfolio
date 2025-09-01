@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { blogsData } from "@/lib/blogs-data";
 import ReactMarkdown from "react-markdown";
 import rehypeHighlight from "rehype-highlight";
+import Image from "next/image";
 
 interface BlogDetailPageProps {
   params: Promise<{
@@ -75,10 +76,11 @@ export default async function BlogDetailPage({ params }: BlogDetailPageProps) {
 
         {/* Blog Image */}
         <div className="aspect-video overflow-hidden rounded-lg mb-8 border border-border/50">
-          <img
+          <Image
             src={blog.image || "/placeholder.svg"}
             alt={blog.title}
             className="w-full h-full object-cover"
+            fill
           />
         </div>
 

@@ -2,8 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { ExternalLink, Github } from "lucide-react";
-import Image from "next/image";
+import { Github } from "lucide-react";
 import { projectsData as projects } from "../lib/projects-data";
 import Link from "next/link";
 import ProjectCard from "./project-card";

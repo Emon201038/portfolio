@@ -3,8 +3,10 @@
 import { motion } from "framer-motion";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const Hero = () => {
+  const router = useRouter();
   const scrollToAbout = () => {
     const aboutSection = document.querySelector("#about");
     if (aboutSection) {
@@ -134,6 +136,14 @@ const Hero = () => {
               className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               View My Work
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => router.push("/resume")}
+              className="px-8 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-full font-medium hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 dark:hover:text-white transition-colors duration-300"
+            >
+              Resume
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.05 }}

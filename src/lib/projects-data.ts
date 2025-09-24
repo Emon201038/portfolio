@@ -39,14 +39,14 @@ export const projectsData = [
     github: [
       {
         name: "Frontend",
-        url: "https://github.com/Emon201038/ph-lvl2-assignment-6",
+        url: "https://github.com/Emon201038/parcel-delivery-system/tree/main/client",
       },
       {
         name: "Backend",
-        url: "https://github.com/Emon201038/ph-lvl2-assignment-5",
+        url: "https://github.com/Emon201038/parcel-delivery-system/tree/main/server",
       },
     ],
-    live: "https://assignment-6-snowy-nine.vercel.app",
+    live: "https://parcel-delivery-system-tau.vercel.app",
     featured: true,
     details: {
       techStack: ["MongoDB", "Express", "React", "Node.js", "TypeScript"],

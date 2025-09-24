@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, Download, ZoomIn, ZoomOut, RotateCw } from "lucide-react";
 
-const url = "/data/Emdadul_Hoque_Emon_Resume.pdf";
+const url = "/data/Emdadul-Hoque-Emon-Full-Stack-Resume.pdf";
 
 export default function ResumePage() {
   const [scale, setScale] = useState(1);
@@ -22,64 +22,6 @@ export default function ResumePage() {
 
   return (
     <div className="min-h-screen mt-16 bg-background">
-      {/* Header */}
-      {/* <div className="border-b bg-card">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <Button asChild variant="ghost" size="sm">
-                <Link href="/">
-                  <ArrowLeft className="w-4 h-4 mr-2" />
-                  Back to Home
-                </Link>
-              </Button>
-              <div>
-                <h1 className="text-xl font-semibold">Resume Preview</h1>
-                <p className="text-sm text-muted-foreground">
-                  Emdadul Hoque Emon
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-2">
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleZoomOut}
-                disabled={scale <= 0.5}
-              >
-                <ZoomOut className="w-4 h-4" />
-              </Button>
-              <span className="text-sm font-mono min-w-[4rem] text-center">
-                {Math.round(scale * 100)}%
-              </span>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleZoomIn}
-                disabled={scale >= 3}
-              >
-                <ZoomIn className="w-4 h-4" />
-              </Button>
-              <Button variant="outline" size="sm" onClick={handleRotate}>
-                <RotateCw className="w-4 h-4" />
-              </Button>
-              <Button variant="outline" size="sm" onClick={handleReset}>
-                Reset
-              </Button>
-              <Button asChild size="sm">
-                <a
-                  href="/Emdadul_Hoque_Emon_Resume.pdf"
-                  download="Emdadul_Hoque_Emon_Resume.pdf"
-                >
-                  <Download className="w-4 h-4 mr-2" />
-                  Download
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div> */}
       {/* PDF Viewer */}
       <div className="container mx-auto px-4 py-8">
         <Card className="max-w-5xl mx-auto">
@@ -114,7 +56,7 @@ export default function ResumePage() {
               </p>
               <Button asChild>
                 <a
-                  href="/data/Emdadul_Hoque_Emon_Resume.pdf"
+                  href="/data/Emdadul-Hoque-Emon-Full-Stack-Resume.pdf"
                   download="Emdadul_Hoque_Emon_Resume.pdf"
                 >
                   <Download className="w-4 h-4 mr-2" />

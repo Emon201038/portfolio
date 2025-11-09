@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, Download, ZoomIn, ZoomOut, RotateCw } from "lucide-react";
 
-const url = "/data/Emdadul-Hoque-Emon-Full-Stack-Resume.pdf";
+const url = "/data/Emdadul_Hoque_Emon_Full_Stack_Resume.pdf";
 
 export default function ResumePage() {
   const [scale, setScale] = useState(1);
@@ -56,7 +56,7 @@ export default function ResumePage() {
               </p>
               <Button asChild>
                 <a
-                  href="/data/Emdadul-Hoque-Emon-Full-Stack-Resume.pdf"
+                  href="/data/Emdadul_Hoque_Emon_Full_Stack_Resume.pdf"
                   download="Emdadul_Hoque_Emon_Resume.pdf"
                 >
                   <Download className="w-4 h-4 mr-2" />

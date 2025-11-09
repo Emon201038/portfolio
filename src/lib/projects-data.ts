@@ -1,5 +1,43 @@
 export const projectsData = [
   {
+    id: 0,
+    title: "Connecto - Social Media Platform",
+    description:
+      "A full-stack social media platform built with MERN stack. Features user authentication, post management, and real-time communication. This project showcases modern web development practices.",
+    image: "/images/facebook.png",
+    tags: ["React", "Node.js", "MongoDB", "TypeScript", "GraphQL"],
+    github: [
+      {
+        name: "Frontend",
+        url: "https://github.com/Emon201038/connecto/tree/development/client",
+      },
+      {
+        name: "Backend",
+        url: "https://github.com/Emon201038/connecto/tree/development/server",
+      },
+    ],
+    live: "https://connecto-by-emon.vercel.app",
+    featured: true,
+    details: {
+      techStack: [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "GraphQL",
+      ],
+      features: [
+        "User authentication",
+        "Post management",
+        "Real-time communication",
+        "Responsive UI",
+      ],
+      role: "Full Stack Developer",
+      duration: "Dec 2023 - Jan 2024",
+    },
+  },
+  {
     id: 1,
     title: "Sports Scoreboard Management",
     description:
